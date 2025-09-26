@@ -55,3 +55,139 @@ Training linear regression models in PyTorch provides a foundational understandi
 ## Conclusion
 
 Applying these best practices can improve the training process and performance of linear regression models in PyTorch. By carefully managing learning rates, standardizing data, using validation, and monitoring the training process, you’ll set a strong foundation for building more complex machine learning models in PyTorch.
+
+
+
+---
+
+## Practice Questions
+
+### Question 1
+
+Consider the code and answer the following question:
+
+What is wrong with the code?
+
+- “LR” is not required  
+- “nn.Module” is not required  
+- “super” is not required in the code  
+- **“linear” should be self.linear**  
+
+<sub>Correct answer: “linear” should be self.linear</sub>
+
+---
+
+### Question 2
+
+What does the term “noise” refer to in linear regression?
+
+- Errors in the data collection process  
+- **Random errors added to the data points**  
+- The lack of a linear relationship between x and y  
+- Variations in the model’s parameters  
+
+<sub>Correct answer: Random errors added to the data points</sub>
+
+---
+
+### Question 3
+
+What is the purpose of the mean squared error (MSE) in linear regression?
+
+- To measure the accuracy of the model predictions  
+- To evaluate the model’s complexity  
+- To compute the standard deviation of the data set  
+- **To calculate the average squared difference between predicted and actual values**  
+
+<sub>Correct answer: To calculate the average squared difference between predicted and actual values</sub>
+
+---
+
+### Question 4
+
+What is the primary goal of gradient descent in the context of linear regression?
+
+- To standardize the features of the data set  
+- **To minimize the cost function**  
+- To find the maximum value of the cost function  
+- To compute the gradient of the input features  
+
+<sub>Correct answer: To minimize the cost function</sub>
+
+---
+
+### Question 5
+
+What issue can arise if the learning rate in gradient descent is too large?
+
+- **The algorithm may miss the minimum of the cost function**  
+- The algorithm may converge too quickly  
+- The algorithm may converge to a suboptimal solution  
+- The learning process will take longer  
+
+<sub>Correct answer: The algorithm may miss the minimum of the cost function</sub>
+
+---
+
+### Question 6
+
+In PyTorch, why is the “requires_grad” attribute set to “True” for a tensor used in training?
+
+- To improve the performance of the model  
+- **To automatically compute the gradients for the tensor**  
+- To visualize the tensor in plots  
+- To make the tensor immutable during training  
+
+<sub>Correct answer: To automatically compute the gradients for the tensor</sub>
+
+---
+
+### Question 7
+
+In gradient descent, what happens to the loss function if the learning rate is set too small?
+
+- **The convergence to the minimum is very slow**  
+- The loss function may increase rapidly  
+- The parameter values oscillate around the minimum  
+- The parameter updates become large  
+
+<sub>Correct answer: The convergence to the minimum is very slow</sub>
+
+---
+
+### Question 8
+
+What does the term “cost surface” represent in the context of linear regression?
+
+- A graphical representation of the data points  
+- **The plot showing how different parameter values affect the cost**  
+- The gradient of the cost function with respect to parameters  
+- A matrix representing the data features  
+
+<sub>Correct answer: The plot showing how different parameter values affect the cost</sub>
+
+---
+
+### Question 9
+
+What is the role of the “forward” function in a PyTorch model?
+
+- To initialize model parameters  
+- **To perform the forward pass and compute predictions**  
+- To apply transformations to input data  
+- To compute the loss function  
+
+<sub>Correct answer: To perform the forward pass and compute predictions</sub>
+
+---
+
+### Question 10
+
+What is the significance of contour plots in understanding the cost function?
+
+- They help visualize the gradient of the cost function  
+- They show the distribution of data points in the feature space  
+- **They represent slices of the cost surface at different heights, helping to visualize how cost changes with parameters**  
+- They provide a 3D view of how cost changes with different parameter values  
+
+<sub>Correct answer: They represent slices of the cost surface at different heights, helping to visualize how cost changes with parameters</sub>
